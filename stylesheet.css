@@ -1,0 +1,479 @@
+li {
+    list-style: none;
+  }
+
+
+header{
+    height:5vmin;
+    width:100%;
+    background-color:#fafafa;
+    margin-top: 0;   
+}
+
+.header_logo{
+    height: 20vmin;
+    width: 20vmin;
+    display: flex;
+    margin-left: 5%;
+    float: left;
+    margin-top: 0;
+}
+
+
+.flex_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.bx_yellow{
+    background-color: #fcd745;
+    /*background-image: url('Ritoma_logo02.png');*/
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 12.36vmin;
+    width: 32.36vmin;
+    z-index: 8;
+}
+
+.bx_yellow p{
+    font-weight: bold;
+    font-size:xx-large;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+.bx_blue{
+    background-color:#2e38c8;
+    height: 12.36vmin;
+    width: 12.36vmin;
+    float: left;
+    box-sizing: border-box;
+    z-index: 8;
+
+}
+
+.bx_green{
+    background-color:#29a433;
+    height: 12.36vmin;
+    width: 12.36vmin;
+    /*float:left;*/
+    box-sizing: border-box;
+    z-index: 8;
+    display: inline-block;
+    margin-left: -7%;
+}
+
+.header_right{
+    background-color:#fafafa;
+    height: 5vmin;
+    width: 814px;
+    margin:0 0 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /*margin-right: 6%;*/
+    /*position:fixed;*/
+    /*top: 0;*/
+    z-index:10;
+    margin-right:4%;
+}
+
+@media(max-width:670px){
+    .header_right{
+        background-color:black;
+        height: 5vmin;
+        width:50%;
+        margin:0 0 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        position:fixed;
+        z-index: 10;
+        margin-left: 45%; 
+    }
+}
+
+
+.header_right a{
+    padding: 1% 20px;
+    color:#6a6a6a;
+    float: left;
+    transition: all 0.3s;
+    display: block;
+}
+
+.header_right a:hover{
+    color:rgb(106, 106, 106,0.3);
+}
+
+
+.main_bg{
+    background-image: url("main_bg.jpg");
+    height: 100vmin;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index: 0.5;
+
+}
+
+.bx_pink{
+    height:20vmin;
+    width: 32.36vmin;
+    /*background-image: url('wood.jpg');*/
+    background-color:#fafafa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12%;
+    z-index: 8;
+    display: flex;
+    align-items: center;
+    /*position:fixed;*/
+}
+
+#bx_pink.fixed{
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+} 
+
+.fixed_ritoma{
+    height:5vmin;
+    width: 32.36vmin;
+    /*background-image: url('wood.jpg');*/
+    background-color:#fafafa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1%;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    position:fixed;
+}
+.fixed_ritoma h2{
+    color:black;
+    padding: 0 0;
+    /*background-color:rgb(192, 119, 42,0.7);*/
+    /*background-color:rgb(200,97,46,0.7);*/
+    font-size: 130%;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+
+}
+
+
+.bx_pink h2{
+    color:black;
+    padding: 0 0;
+    /*background-color:rgb(192, 119, 42,0.7);*/
+    /*background-color:rgb(200,97,46,0.7);*/
+    font-size: 130%;
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    
+    
+}
+
+.RI{
+    color:#2e38c8;
+    font-size: 120%;
+    padding:0 3%;
+}
+
+.TO{
+    color:#fcd745;
+    font-size: 120%;
+    padding:0 3%;
+}
+
+
+.MA{
+    color: #29a433;
+    font-size: 120%;
+    padding:0 3%;
+}
+
+.Ab_Ritoma{
+    height: 100vmin;
+    width: auto;
+    display:flex;
+}
+
+.tx_container{
+    /*height: 80vmin;*/
+    height: 80%;
+    width:55%;
+    background-color:#fcd745;
+    margin-top: 10%;
+    position:relative;
+}
+
+.tx_box{
+    height:50vmin;
+    width: 50%;
+    /*margin:0 0 0 auto;*/
+    position: absolute;
+    top: 3%;
+    margin-left: 26%;
+    padding: 0% 5%;
+    line-height: 1.5em;
+}
+
+.tx_box h1{
+    margin-bottom: 0%;
+    
+}
+
+.tx_box p{
+    font-size:medium;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.Ab_Ritoma_img1{
+    background-image: url('Ab_Ritoma_img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vmin;
+    width: 40vmin;
+    margin-top: 10%;
+}
+
+.Ab_Ritoma_img2{
+    background-image: url('Ab_Ritoma_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vmin;
+    width: 20vmin;
+    position: absolute;
+    top: 70%;
+    margin-left: 100%;
+
+}
+
+.Ab_Kenzan{
+    height: 100vmin;
+    width: auto;
+    /*background-color:pink;*/
+    display:flex;
+    align-items: flex-end;
+    justify-content: right;
+    
+}
+
+.Ab_Kenzan .tx_container{
+    height: 80vmin;
+    width:55%;
+    background-color:#E6224A;
+    margin:10% 0 0 auto;
+    position:relative;
+}
+
+.Ab_Kenzan .tx_box{
+    height:50vmin;
+    width: 50%;
+    /*background-color:white;*/
+    /*margin:0 0 0 auto;*/
+    position: absolute;
+    top: 6%;
+    margin-left: 26%;
+    padding: 0% 5%;
+}
+
+.Ab_Kenzan .tx_box p{
+    line-height: 50px;
+    font-size:medium;
+    padding-top: 6%;
+    color: white;
+}
+
+.Ab_Kenzan .tx_box h1{
+    color: white;
+}
+
+.Ab_Kenzan_img1{
+    background-image: url('Ab_Kenzan_img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vmin;
+    width: 50vmin;
+    margin-top: 10%;
+    /*margin-left: 25%;*/
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+
+}
+
+
+/*.Ab_Kenzan_img2{
+    background-image: url('Ab_Kenzan_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vmin;
+    width: 20vmin;
+    position: absolute;
+    top:31%;
+    margin-left: -67%;
+}*/
+
+/*.Ab_Kenzan_img2{
+    background-image: url('Ab_Kenzan_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vmin;
+    width: 20vmin;
+    position: absolute;
+    top:10.5%;
+    right: 143%;
+}*/
+
+.Ab_Programming{
+    height: 100vmin;
+    width: auto;
+    background-color:white;
+    display:flex;
+}
+
+.Ab_Programming_img1{
+    background-image: url('Ab_Programming_img1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 50vmin;
+    width: 80.9vmin;
+    margin-top: 10%;
+}
+
+/*.Ab_Programming_img2{
+    background-image: url('Ab_Programming_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vmin;
+    width: 20vmin;
+    position: absolute;
+    top: 70%;
+    margin-left: 100%;
+
+}*/
+
+.Ab_Programming .tx_container{
+    height: 80vmin;
+    width:55%;
+    background-color:#2EA5C8;
+    margin-top: 10%;
+    position:relative;
+    color: white;
+}
+
+.Ab_Okasan{
+    height: 100vmin;
+    width: auto;
+    background-color:white;
+    display:flex;
+}
+
+.Ab_Okasan .tx_container{
+    height: 49vimn;
+    width:35%;
+    background-color:#F99703;
+    /*margin-top: 15%;*/
+    margin-left: 15%;
+    position:relative;
+}
+
+.Ab_Okasan .tx_box{
+    height:50vmin;
+    width: 70%;
+    /*background-color:white;*/
+    /*margin:0 0 0 auto;*/
+    position: absolute;
+    /*top: 6%;*/
+    margin-left: 15%;
+    padding: 0% 0%;
+
+}
+
+.tx_box p{
+    line-height: 50px;
+    font-size:medium;
+    padding-top: 6%;
+}
+
+.Ab_Okasan_img1{
+    background-image: url('Ab_Okasan_img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:80vmin;
+    width: 35%;
+    margin-top: 10%;
+}
+
+.Contact{
+    height: 100vmin;
+    width: auto;
+    background-color:white;
+    display:flex;
+    margin-top: 10%;
+}
+
+.Contact .tx_container{
+    height: 30vmin;
+    width:70%;
+    background-color:#fcd745;
+    margin-top: 8%;
+    margin-left:15%;
+    position:relative;
+}
+
+.Contact h1{
+    text-align: center;
+}
+
+.Contact_img{
+    width: 100%;
+    height: 90%;
+    background-image: url('Instagram.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 0.1s;
+}
+
+.Contact_img:hover{
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+}
+
+footer{
+    height:20vmin;
+    width: auto;
+    background-color:#6a6a6a;
+    margin-top: 0;
+    position: relative;
+}
+
+.footer_tx{
+    color: white;
+    text-align: center;
+    padding-top:4%;
+    line-height: 30px;
+
+}
+.Soichiro{
+    text-align: right;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+}
