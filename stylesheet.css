@@ -3,6 +3,7 @@ li {
   }
 
 
+
 header{
     height:5vmin;
     width:100%;
@@ -67,7 +68,7 @@ header{
 .header_right{
     background-color:#fafafa;
     height: 5vmin;
-    width:50%;
+    width:70%;
     margin:0 0 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -75,21 +76,24 @@ header{
     /*position:fixed;*/
     /*top: 0;*/
     z-index:10;
-    margin-right:4%;
 }
 
 @media(max-width:670px){
     .header_right{
         background-color:black;
         height: 5vmin;
-        width:50%;
+        width:60%;
         margin:0 0 0 auto;
         display: flex;
         justify-content: space-evenly;
         position:fixed;
         z-index: 10;
-        margin-left: 45%; 
+        margin-right: 4%; 
     }
+}
+
+body{
+    margin-top: 0;
 }
 
 .header_right a{
