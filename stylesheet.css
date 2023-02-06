@@ -8,7 +8,6 @@ header{
     width:100%;
     background-color:#fafafa;
     margin-top: 0;
-    
 }
 
 .header_logo{
@@ -73,11 +72,24 @@ header{
     display: flex;
     justify-content: space-evenly;
     /*margin-right: 6%;*/
-    position:fixed;
+    /*position:fixed;*/
     /*top: 0;*/
-    z-index: 10;
-    margin-left: 45%;
+    z-index:10;
+    margin-right:4%;
+}
 
+@media(max-width:670px){
+    .header_right{
+        background-color:black;
+        height: 5vmin;
+        width:50%;
+        margin:0 0 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        position:fixed;
+        z-index: 10;
+        margin-left: 45%; 
+    }
 }
 
 .header_right a{
@@ -188,12 +200,12 @@ header{
 .Ab_Ritoma{
     height: 100vmin;
     width: auto;
-    background-color:white;
     display:flex;
 }
 
 .tx_container{
-    height: 80vmin;
+    /*height: 80vmin;*/
+    height: 80%;
     width:55%;
     background-color:#fcd745;
     margin-top: 10%;
@@ -203,19 +215,23 @@ header{
 .tx_box{
     height:50vmin;
     width: 50%;
-    /*background-color:white;*/
     /*margin:0 0 0 auto;*/
     position: absolute;
-    top: 6%;
+    top: 3%;
     margin-left: 26%;
     padding: 0% 5%;
+    line-height: 1.5em;
+}
 
+.tx_box h1{
+    margin-bottom: 0%;
+    
 }
 
 .tx_box p{
-    line-height: 50px;
     font-size:medium;
-    padding-top: 6%;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .Ab_Ritoma_img1{
