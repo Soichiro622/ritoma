@@ -7,7 +7,7 @@ header{
     height:5vmin;
     width:100%;
     background-color:#fafafa;
-    margin-top: 0;   
+    margin-top: 0;
 }
 
 .header_logo{
@@ -18,7 +18,6 @@ header{
     float: left;
     margin-top: 0;
 }
-
 
 .flex_box{
     display: flex;
@@ -68,7 +67,7 @@ header{
 .header_right{
     background-color:#fafafa;
     height: 5vmin;
-    width: 814px;
+    width:50%;
     margin:0 0 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -92,7 +91,6 @@ header{
         margin-left: 45%; 
     }
 }
-
 
 .header_right a{
     padding: 1% 20px;
@@ -234,7 +232,6 @@ header{
     font-size:medium;
     padding-top: 0;
     margin-top: 0;
-    
 }
 
 .Ab_Ritoma_img1{
