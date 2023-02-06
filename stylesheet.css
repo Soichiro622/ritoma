@@ -4,6 +4,7 @@ li {
 
 
 
+
 header{
     height:5vmin;
     width:100%;
@@ -209,7 +210,7 @@ body{
 
 .tx_container{
     /*height: 80vmin;*/
-    height: 80%;
+    height: 90vh;
     width:55%;
     background-color:#fcd745;
     margin-top: 10%;
@@ -217,25 +218,35 @@ body{
 }
 
 .tx_box{
-    height:50vmin;
+    height:80%;
     width: 50%;
     /*margin:0 0 0 auto;*/
     position: absolute;
-    top: 3%;
+    top: 10vh;
     margin-left: 26%;
     padding: 0% 5%;
     line-height: 1.5em;
+    display: grid;
+    place-items: center;
+
 }
 
 .tx_box h1{
     margin-bottom: 0%;
-    
 }
 
 .tx_box p{
+    line-height: 50px;
     font-size:medium;
-    padding-top: 0;
     margin-top: 0;
+    padding-top: 6%;
+}
+
+.img_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
 }
 
 .Ab_Ritoma_img1{
@@ -244,7 +255,6 @@ body{
     background-repeat: no-repeat;
     height: 40vmin;
     width: 40vmin;
-    margin-top: 10%;
 }
 
 .Ab_Ritoma_img2{
@@ -253,10 +263,6 @@ body{
     background-repeat: no-repeat;
     height: 20vmin;
     width: 20vmin;
-    position: absolute;
-    top: 70%;
-    margin-left: 100%;
-
 }
 
 .Ab_Kenzan{
@@ -405,17 +411,13 @@ body{
 
 }
 
-.tx_box p{
-    line-height: 50px;
-    font-size:medium;
-    padding-top: 6%;
-}
+
 
 .Ab_Okasan_img1{
     background-image: url('Ab_Okasan_img1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height:80vmin;
+    height:90vh;
     width: 35%;
     margin-top: 10%;
 }
