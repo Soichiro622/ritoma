@@ -1,0 +1,108 @@
+/*スマホ向けレイアウト*/
+@media(max-width:670px){
+    body{
+        margin: 0 0;
+    }
+    header{
+        height: 5vh;
+    }
+    .header_logo{
+        display: none;
+    }
+    .header_right{
+        
+        width: 100%;
+        height: 5vh;
+        z-index: 100;
+    }
+    .header_right a{
+        padding: 1% 1%;
+        padding-top: 2%;
+        font-size: 3px;
+    }
+    .main{
+        flex-direction: column;
+    }
+
+    .main_bg{
+        position: relative;
+    }
+    .fixed_ritoma_sm{
+        height: 50px;
+        width: 50%;
+        background-color:white;
+        position: absolute;
+        top: 10%;
+    }
+    .fixed_ritoma_sm h2{
+        margin: 0 0;
+        font-size: 13%;
+        text-align: center;
+        line-height:50px;
+    }
+    .Ab_Ritoma{
+        height: 100vmin;
+        width:100%;
+        display:flex;
+    }
+
+    .tx_container{
+        /*height: 80vmin;*/
+        height: 90vh;
+        width:100%;
+        background-color:#fcd745;
+        position:relative;
+        margin-top: 0;
+    }
+    .img_box{
+
+    }
+    
+    .tx_box{
+        /*background-color:white;*/
+        width: 100%;
+        margin-left: 0%;
+        padding: 0% 0;
+        line-height: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        top: 0;
+    }
+    .tx_box h1{
+        font-size: 25px;
+    }
+
+    .tx_box p{
+        font-size: 10px;
+        margin: 0 0;
+        padding: 0 0;
+        width: 85%;
+    }
+
+    .Ab_Kenzan{
+        height: 200vmin;
+        width:100%;
+        z-index: 100;
+    }
+
+    .Ab_Kenzan .tx_container{
+        height: 90vh;
+        width:100%;
+        margin-top: 0;
+    }
+    .Ab_Kenzan .tx_box{
+        width: 100%;
+        padding-left: 0;
+        margin: 0% auto;
+        
+    }
+    
+    
+    
+}
+
+@media(max-width:1000px){
+    .bx_pink{
+        background-color:pink;
+    }
+}
