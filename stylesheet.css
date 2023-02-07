@@ -88,6 +88,7 @@ body{
     float: left;
     transition: all 0.3s;
     display: block;
+    text-decoration: none;
 }
 
 .header_right a:hover{
@@ -152,6 +153,10 @@ body{
     width: 100%;
     text-align:center;
 
+}
+
+.fixed_ritoma_sm{
+    display: none;
 }
 
 
@@ -303,30 +308,15 @@ body{
     bottom: 0%;
 }
 
+.DISCUSSION_TOPICS{
+    margin-top: 10%;
+    text-align: center;
+}
+.swiper {
+    width: 700px;
+    height: 437.5px;
+  }
 
-/*.Ab_Kenzan_img2{
-    background-image: url('Ab_Kenzan_img2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 20vmin;
-    width: 20vmin;
-    position: absolute;
-    top:31%;
-    margin-left: -67%;
-}*/
-
-/*.Ab_Kenzan_img2{
-    background-image: url('Ab_Kenzan_img2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 20vmin;
-    width: 20vmin;
-    position: absolute;
-    top:10.5%;
-    right: 143%;
-}*/
 
 .Ab_Programming{
     height: 100vmin;
