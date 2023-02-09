@@ -18,7 +18,7 @@
     .header_right a{
         padding: 1% 1%;
         padding-top: 2%;
-        font-size: 3px;
+        font-size: 3%;
     }
     .main{
         flex-direction: column;
@@ -41,9 +41,10 @@
         line-height:50px;
     }
     .Ab_Ritoma{
-        height: 100vmin;
+        height: 200vmin;
         width:100%;
         display:flex;
+        flex-direction: column;
     }
 
     .tx_container{
@@ -55,7 +56,20 @@
         margin-top: 0;
     }
     .img_box{
+        margin-top: 0;
+    }
 
+    .Ab_Ritoma_img1{
+        margin: 0 0 0 auto;
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+    .Ab_Ritoma_img2{
+        margin: 0 0 0 auto;
+        width: 25vw;
+        height: 25vw;
     }
     
     .tx_box{
@@ -80,9 +94,9 @@
     }
 
     .Ab_Kenzan{
-        height: 200vmin;
+        height: 180vmin;
         width:100%;
-        z-index: 100;
+        /*z-index: 100;*/
     }
 
     .Ab_Kenzan .tx_container{
@@ -93,10 +107,160 @@
     .Ab_Kenzan .tx_box{
         width: 100%;
         padding-left: 0;
+        padding-right: 0;
         margin: 0% auto;
-        
+        height: 80%;
+    }
+
+    .Ab_Kenzan .tx_box p{
+        font-size: 10px;
+        margin: 0 0;
+        padding: 0 0;
+        width: 85%;
     }
     
+    .DISCUSSION_TOPICS{
+        font-size: large;
+    }
+
+    .swiper {
+        width: 100%;
+        height:auto;
+      }
+
+    .Ab_Programming{
+        height: 200vmin;
+        width: auto;
+        background-color:white;
+        display:flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .Ab_Programming .tx_container{
+        height: 140vh;
+        width:100%;
+        background-color:#2EA5C8;
+        margin-top: 10%;
+    }
+
+    .Ab_Programming_img1{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:right;
+        width: 50%;
+        height:50vh;
+        margin-top:0%;
+    }
+
+    .Ab_Okasan{
+        height: 120vmin;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .Ab_Okasan .tx_container{
+        height: 70vh;
+        width:100%;
+        margin-left: 0;
+        color: white;
+    }
+    .Ab_Okasan_img_sm{
+        background-image: url('Ab_Okasan_img1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:50vh;
+        width: 50%;
+        margin-top: 0%;
+        margin-left: 50%;
+    }
+
+    .Ab_Okasan_img1{
+        display: none;
+    }
+
+    .news{
+        border: 10px dotted #00A470;
+        width: 90%;
+        height: 140vw;
+        margin-top: 15%;
+        color: white;
+        text-align: center;
+        margin: 10% auto 0 auto;
+    }
+    
+    .news h2{
+        padding-top: 3%;
+        font-size:5vw;
+        color:#00A470;
+        font-family:'Noto Sans JP',sans-serif;
+    }
+    
+    
+    .news .news_img{
+        background-image: url('news_img.JPG');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height:110vw;
+        margin: 0 auto 0 auto;
+    }
+
+    .Contact{
+        height: 70vmin;
+        width: auto;
+        background-color:white;
+        display:flex;
+        margin-top: 10%;
+    }
+    
+    .Contact .tx_container{
+        height: 30vmin;
+        width:100%;
+        background-color:#fcd745;
+        margin-top: 8%;
+        margin-left:0%;
+        position:relative;
+    }
+    
+    .Contact h1{
+        text-align: center;
+        font-size:4vw;
+    }
+    
+    .tx_container .a{
+        width: 100%;
+        height: 90%;
+    }
+
+    .Contact_img{
+        width: 100%;
+        height:20vmin;
+        background-image: url('Instagram.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        transition: all 0.1s;
+    }
+    footer{
+        height:30vmin;
+        width: auto;
+        background-color:#6a6a6a;
+        margin-top: 0;
+        position: relative;
+    }
+    
+    .footer_tx{
+        color: white;
+        text-align: center;
+        padding-top:4%;
+        line-height: 30px;
+        font-size:10px;
+    
+    }
+
     
     
 }

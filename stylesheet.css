@@ -221,7 +221,7 @@ body{
 
 }
 
-.tx_box h1{
+.tx_box h2{
     margin-bottom: 0%;
 }
 
@@ -262,14 +262,13 @@ body{
     display:flex;
     align-items: flex-end;
     justify-content: right;
-    
 }
 
 .Ab_Kenzan .tx_container{
     height: 80vmin;
     width:55%;
     background-color:#E6224A;
-    margin:10% 0 0 auto;
+    margin:0 0 0 auto;
     position:relative;
 }
 
@@ -315,6 +314,7 @@ body{
 .swiper {
     width: 700px;
     height: 437.5px;
+    max-width: 100%;
   }
 
 
@@ -335,18 +335,6 @@ body{
     margin-top: 10%;
 }
 
-/*.Ab_Programming_img2{
-    background-image: url('Ab_Programming_img2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 20vmin;
-    width: 20vmin;
-    position: absolute;
-    top: 70%;
-    margin-left: 100%;
-
-}*/
 
 .Ab_Programming .tx_container{
     height: 80vmin;
@@ -395,6 +383,34 @@ body{
     width: 35%;
     margin-top: 10%;
 }
+
+.news{
+    border: 10px dotted #00A470;
+    width: 50%;
+    height: 54vw;
+    margin-top: 15%;
+    margin-left:25%;
+    color: white;
+    text-align: center;
+}
+
+.news h2{
+    padding-top: 3%;
+    font-size:1.5vw;
+    color:#00A470;
+    font-family:'Noto Sans JP',sans-serif;
+}
+
+
+.news .news_img{
+    background-image: url('news_img.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height:45.2vw;
+    margin: 0 auto 0 auto;
+}
+
 
 .Contact{
     height: 100vmin;
@@ -445,12 +461,4 @@ footer{
     text-align: center;
     padding-top:4%;
     line-height: 30px;
-
-}
-.Soichiro{
-    text-align: right;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    right: 1%;
 }
